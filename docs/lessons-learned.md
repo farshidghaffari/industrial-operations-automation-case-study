@@ -1,55 +1,25 @@
-# Lessons Learned
+# Lessons and Practical Takeaways
 
-This project has been a valuable experience in building practical business software for a real workflow.
+## Start with the Operational Problem
 
-## 1. Real Business Needs Are More Important Than Generic Features
+The confirmed role began with identifying the problem and defining requirements and workflows. Useful internal software depends on the decisions people need to make, not just a list of screens.
 
-A feature is only useful if it matches how the business actually works.
+## Validate Connected Behavior
 
-Many improvements came from testing the system in real scenarios and identifying what the users actually needed.
+An invoice, its payments and its remaining balance should tell one consistent story. The synthetic 1,000 / 400 / 600 example makes that relationship explicit without exposing company records. It is a teaching example, not evidence that every failure path has been tested in production.
 
-## 2. Financial Logic Needs Extra Care
+## AI Assistance Still Requires Direction and Review
 
-Sales, purchases, debts, payments, checks, and financial accounts are connected.
+Implementation was AI-assisted under Farshid's direction, review and testing. His contribution includes product decisions, identifying issues, directing corrections, validating results and taking the system through delivery. Accurate credit describes that responsibility without claiming independent authorship of the entire codebase.
 
-A small mistake in one area can affect reports, balances, and trust in the system.
+## Delivery and Iteration Can Coexist
 
-## 3. Step-by-Step Development Works Better
+The system was delivered and used operationally. Continued supervision and selective improvements do not turn it into an unfinished prototype; status language should preserve that distinction.
 
-Building the system in small versions made it easier to:
+## Protect Evidence Without Inventing It
 
-- Test changes
-- Fix bugs
-- Review workflows
-- Avoid large rewrites
-- Keep progress visible
+The operational system contains real company data. A diagram or clearly labeled synthetic workflow can communicate the reasoning without a production screenshot. Reconstructed screens must never be represented as live evidence.
 
-## 4. UI Details Matter
+## Keep Claims Proportional to Sources
 
-Admin panels must be clear and practical.
-
-Small UI problems can slow down users or cause data entry mistakes.
-
-## 5. Reports Should Be Designed Around Decisions
-
-Reports are not just tables.
-
-A useful report should answer a real business question, such as:
-
-- Who owes money?
-- Which supplier has remaining debt?
-- What checks are due?
-- What is the monthly sales total?
-- What happened in a financial account?
-
-## 6. AI Can Speed Up Development When Used Correctly
-
-AI can help with analysis, debugging, code generation, and documentation.
-
-However, real testing, business understanding, and final decisions still require human judgment.
-
-## 7. Case Studies Are Valuable
-
-Not every real project can be open-sourced.
-
-A case study is a good way to document the project while protecting private business data and source code.
+Owner confirmation supports delivery and role. Existing documents support the documented design. Neither alone proves exact current versions, quantitative impact, automated coverage or every module's live behavior. The [evidence register](evidence-register.md) keeps those boundaries visible.

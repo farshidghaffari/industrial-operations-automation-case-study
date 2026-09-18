@@ -1,64 +1,34 @@
-# Architecture
+# Architecture and System Boundaries
 
-This project is built as a Laravel-based web application with an admin panel.
+## Documented Architecture
 
-## Application Type
+The existing public documentation describes a web-based internal admin application: Laravel/PHP for application logic, MySQL for structured storage, Blade for server-rendered views, Docker for local development, and Git for versioning. These descriptions are consistent across the reviewed repository and saved README. They are not a verification of current production versions or deployment configuration.
 
-- Web-based business management system
-- Admin dashboard
-- Internal operations tool
+## Conceptual Responsibilities
 
-## Core Technology
+| Responsibility | Business purpose | Public boundary |
+|---|---|---|
+| Operational entry | Capture information needed by the workflow | No real forms, customer records or production screenshots |
+| Application rules | Interpret entries and their effect on connected workflows | No source fragments, routes or unverified algorithm claims |
+| Structured records | Keep related business information available for later use | No table names, private schema or database contents |
+| Admin/reporting views | Make payment and outstanding-balance information understandable | Synthetic examples only; no operational exports |
 
-- Laravel for backend and application structure
-- PHP for server-side logic
-- MySQL for database storage
-- Blade templates for server-rendered views
-- Docker for local development
-- Git for version control and iteration tracking
+These are conceptual responsibilities, not claims about separate deployed services, API endpoints or exact internal component boundaries.
 
-## Development Environment
+## Invoice / Payment / Reporting Relationship
 
-The project is developed locally using Docker.
+![Conceptual synthetic flow](../assets/diagrams/invoice-payment-flow.svg)
 
-A local admin panel is used for testing and reviewing system behavior during development.
+For one synthetic invoice of 1,000 illustrative units, an applied payment of 400 leaves 600 outstanding. The report needs to express those three values consistently. This explains a business invariant, not the private implementation of persistence, calculation or reconciliation.
 
-## Data Model Approach
+## Decisions and Trade-offs
 
-The system is organized around business entities such as:
+- A server-rendered internal interface is the approach described in the existing documentation. No comparison benchmark against other frameworks is claimed.
+- Related operational events should be considered together when reviewing totals. The public evidence does not establish transaction isolation, concurrency control, immutable audit logs or idempotency.
+- Synthetic workflow evidence protects the operational system while making the reasoning reviewable. It cannot independently demonstrate current production behavior.
 
-- Customers
-- Suppliers
-- Sales
-- Purchases
-- Checks
-- Expenses
-- Employees
-- Financial accounts
-- Account transactions
-- Daily operation records
+## Not Verified in This Update
 
-## Design Direction
+Exact release/module versions, database relationships, API integrations, authentication/authorization rules, hosting topology, backups, recovery behavior, rounding policy and automated test coverage. These are omitted as implementation claims. Docker's documented local-development use must not be read as proof of containerized production deployment.
 
-The system is designed to prioritize:
-
-- Clear business workflows
-- Practical admin screens
-- Accurate financial tracking
-- Step-by-step development
-- Maintainability
-- Future extensibility
-
-## Security and Privacy
-
-This public case study does not include:
-
-- Source code
-- Production database
-- Client data
-- Credentials
-- Internal business documents
-- Sensitive screenshots
-- Financial records
-
-Only high-level architecture and development notes are documented here.
+See [evidence register](evidence-register.md) and [validation scenarios](validation-scenarios.md).

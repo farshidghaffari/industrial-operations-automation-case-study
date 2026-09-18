@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+<title id="title">Synthetic invoice to payment to receivable to report</title>
+<desc id="desc">Conceptual example only: invoice SYN-INV-001 totals 1000 illustrative units, partial payment 400, remaining receivable 600, report reconciles 1000 equals 400 plus 600. Not a production screenshot or test result.</desc>
+<rect width="960" height="720" fill="#f3f6f5"/>
+<g font-family="Arial,sans-serif" fill="#153b30">
+<text x="40" y="50" font-size="26" font-weight="bold">Invoice → payment → receivable → report</text>
+<text x="40" y="82" font-size="17">SYNTHETIC EXAMPLE · Abstract units · No real company or customer data</text>
+<rect x="180" y="120" width="600" height="92" rx="10" fill="#153b30"/>
+<text x="205" y="153" font-size="21" fill="white" font-weight="bold">1. Invoice · SYN-INV-001</text>
+<text x="205" y="185" font-size="18" fill="white">Synthetic Customer A · Total 1,000 · Initially paid 0</text>
+<path d="M480 212v30m-7-9 7 9 7-9" fill="none" stroke="#153b30" stroke-width="3"/>
+<rect x="180" y="250" width="600" height="82" rx="10" fill="#deebe5"/>
+<text x="205" y="282" font-size="21" font-weight="bold">2. Partial payment · 400</text>
+<text x="205" y="312" font-size="18">Applied to the same synthetic invoice</text>
+<path d="M480 332v30m-7-9 7 9 7-9" fill="none" stroke="#153b30" stroke-width="3"/>
+<rect x="180" y="370" width="600" height="82" rx="10" fill="#deebe5"/>
+<text x="205" y="402" font-size="21" font-weight="bold">3. Remaining receivable · 600</text>
+<text x="205" y="432" font-size="18">1,000 invoice total − 400 payment = 600 remaining</text>
+<path d="M480 452v30m-7-9 7 9 7-9" fill="none" stroke="#153b30" stroke-width="3"/>
+<rect x="180" y="490" width="600" height="82" rx="10" fill="#deebe5"/>
+<text x="205" y="522" font-size="21" font-weight="bold">4. Report · same transaction</text>
+<text x="205" y="552" font-size="18">Total 1,000 = Paid 400 + Outstanding 600</text>
+<text x="40" y="625" font-size="17">Conceptual workflow diagram; not a production screenshot or application test result.</text>
+<text x="40" y="655" font-size="16">No opening balance, tax, fees, credits, reversals or other invoices in this example.</text>
+<text x="40" y="686" font-size="15">See docs/validation-scenarios.md and docs/evidence-register.md for evidence limits.</text>
+</g>
+</svg>

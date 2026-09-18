@@ -1,66 +1,31 @@
-# Development Process
+# Development, Delivery and Supervision
 
-The system is being developed in small, testable iterations.
+## Delivered System
 
-## Iterative Development
+**Delivered and used operationally, with ongoing supervision and iterative improvements.**
 
-Instead of trying to build the entire system at once, features are added and improved version by version.
+The system reached delivery and operational use at Behrad Gas. Iteration describes how it was developed and how targeted improvements may continue; it is not a statement that the entire project is still awaiting delivery.
 
-Each iteration focuses on one or more of the following:
+## Farshid's Role
 
-- New module development
-- Workflow correction
-- Bug fixing
-- UI improvement
-- Report improvement
-- Data validation
-- Financial logic correction
-- Better operational tracking
+> I led problem discovery, requirements, workflow design, product decisions, iterative validation and delivery. Implementation was AI-assisted and developed under my direction, review and testing.
 
-## Practical Testing
+## Working Process
 
-The system is tested against real operational needs.
+1. **Identify the operational problem:** understand the business need and where existing work was difficult to manage.
+2. **Define requirements and workflow:** decide what the system should help people do and how the steps should relate.
+3. **Direct implementation:** use AI assistance to develop iterations under Farshid's direction.
+4. **Review and test behavior:** compare the iteration with the intended workflow and identify issues.
+5. **Direct corrections:** explain the problem, guide improvements and review the next iteration.
+6. **Validate and deliver:** take the system through final delivery for operational use.
+7. **Supervise after delivery:** continue oversight and guide improvements when needed.
 
-Feedback from actual usage helps identify:
+This account is owner-confirmed. It does not assert independent authorship of every line, a particular team composition, formal certification or an undocumented deployment procedure.
 
-- Missing fields
-- Wrong assumptions
-- UI confusion
-- Calculation errors
-- Reporting gaps
-- Workflow problems
-- Data consistency issues
+## Public Validation Evidence
 
-## AI-Assisted Workflow
+The [synthetic scenario](validation-scenarios.md) illustrates what a coherent invoice/payment/report flow should communicate. Its arithmetic is inspectable; it is not a log of a production acceptance test. Proposed edge-case checks are labeled separately, with no invented pass/fail results.
 
-AI is used as a technical assistant during the project.
+## Scope of This Documentation Change
 
-Use cases include:
-
-- Breaking down requirements
-- Designing implementation steps
-- Reviewing possible bugs
-- Generating patches
-- Explaining errors
-- Improving UI and workflow logic
-- Creating documentation and case study material
-
-## Versioning Mindset
-
-The project follows a versioned improvement approach.
-
-This helps track what changed, what was fixed, and what should be tested after each update.
-
-## Lessons from the Process
-
-A real business automation project is not only about writing code.
-
-It also requires:
-
-- Understanding the business
-- Asking the right workflow questions
-- Testing with real data
-- Improving based on user feedback
-- Keeping financial logic consistent
-- Avoiding unnecessary complexity
-- Building features in the right order
+Documentation and a synthetic diagram only. No production/private code changes, exports, database access, live UI capture or reliability fixes. Future improvements should have explicit scope, reviewable evidence and owner review before merge.
