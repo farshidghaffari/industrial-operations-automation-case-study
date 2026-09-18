@@ -1,40 +1,33 @@
 # Project Overview
 
-This case study documents a real-world industrial operations automation project.
+## Context and Current Status
 
-The project was created to help an industrial business manage its internal operations through a structured web-based system instead of relying on scattered manual processes.
+An internal business system for Behrad Gas, delivered for operational use.
 
-## Project Type
+**Delivered and used operationally, with ongoing supervision and iterative improvements.**
 
-Custom business automation system.
+This owner-confirmed status supersedes the earlier blanket “under active development” wording. Continued supervision and selective improvement are compatible with delivery; they do not imply that all modules are unfinished.
 
-## Business Context
+## Role and Responsibility
 
-The target business has daily operational records, sales, purchases, financial movements, debts, checks, expenses, and employee-related data that need to be tracked accurately.
+> I led problem discovery, requirements, workflow design, product decisions, iterative validation and delivery. Implementation was AI-assisted and developed under my direction, review and testing.
 
-Before automation, many of these activities could be handled manually, through spreadsheets, handwritten notes, or disconnected tools. This makes tracking, reporting, and auditing harder as the business grows.
+Farshid identified problems, specified requirements, designed workflows, reviewed iterations, tested behavior, directed corrections, validated delivery and continues supervision. AI assistance describes the implementation process; it does not remove human responsibility for decisions and acceptance or imply independent sole-code authorship.
 
-## Project Objective
+## Scope Supported by Available Materials
 
-The objective is to build a practical system that helps the business:
+| Evidence level | Scope |
+|---|---|
+| Current owner confirmation | Internal Behrad Gas business system delivered and used operationally; ongoing supervision |
+| Project materials | Web-based internal panel, accounting-related workflows, invoices, customer/CRM-type information and operational records |
+| Earlier public module documentation | Daily operations, sales/invoices, purchases, customer/supplier debts, checks, expenses, employees, financial accounts and reporting |
 
-- Record daily operations
-- Manage sales and invoices
-- Track purchases
-- Monitor customer debts
-- Monitor supplier debts
-- Manage checks
-- Track expenses
-- Manage employee information
-- Track financial account movements
-- Generate useful reports
+The earlier module list is documented scope, not proof of every module's current production state. No newer verified release manifest was located in the reviewed materials. Exact current module coverage and versions remain unverified; no details were invented to fill that gap.
 
-## Current Status
+## Constraints and Public Evidence
 
-The project is under active development and is being improved through step-by-step testing, debugging, and iteration.
+The live system now contains company data and is not a source for public exports or screenshots. This case study uses high-level descriptions and a single [synthetic invoice/payment scenario](validation-scenarios.md). Values and visual structure are illustrative, not reconstructed from private records.
 
-## Case Study Focus
+The case study does not publish source, database schema, customer records, financial records or deployment details. It makes no claim about legal ownership of the software beyond its confirmed use as an internal system for Behrad Gas.
 
-This public repository focuses on the software design, business workflow analysis, system modules, and development process.
-
-It does not include private source code, client data, database credentials, screenshots containing sensitive data, or internal business documents.
+See [evidence register](evidence-register.md) for the source hierarchy, omissions and unresolved implementation facts.

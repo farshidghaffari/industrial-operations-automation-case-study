@@ -1,6 +1,8 @@
 # System Modules
 
-The system is built around several connected business modules.
+This page preserves the module scope described in the earlier public documentation. It is not a fresh module-by-module verification of the current production release. The owner confirms that the overall system was delivered and used operationally, with ongoing supervision and iterative improvements. See the [evidence register](evidence-register.md) for current-source limitations.
+
+The descriptions below should be read as previously documented functionality; they do not imply that every module remains under active development.
 
 ## 1. Daily Operations
 
