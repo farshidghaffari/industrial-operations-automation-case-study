@@ -1,4 +1,4 @@
-# Industrial Operations Automation — Behrad Gas
+# Industrial Operations Automation | Behrad Gas
 
 **Real operational case study · Internal business system · Documentation only**
 
@@ -79,7 +79,7 @@ Behrad Gas is named with owner approval. The operational system contains real co
 
 ## Author and Related Work
 
-**Farshid Ghaffari — Business Automation & Integration Specialist**
+**Farshid Ghaffari | Business Automation & Integration Specialist**
 
 [Portfolio](https://farshidghaffari.net/) · [Existing website case study](https://farshidghaffari.net/projects/industrial-operations-automation-laravel/) · [Project discussion](https://farshidghaffari.net/contact/)
 
