@@ -17,7 +17,7 @@ Arithmetic check: `1,000 - 400 = 600`, and `400 + 600 = 1,000`. This checks the 
 
 ![Synthetic transaction diagram](../assets/diagrams/invoice-payment-flow.svg)
 
-## Proposed Failure-Path Checks — Not Executed Here
+## Proposed Failure-Path Checks | Not Executed Here
 
 These checks extend the same synthetic scenario conceptually. They are review questions, not a claim of implemented handling or historical test passes.
 
